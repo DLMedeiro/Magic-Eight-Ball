@@ -1,5 +1,6 @@
 const answers = 
 [
+    { msg: "Think of a Question", color: "black" },
     { msg: "It is certain.", color: "green" },
     { msg: "It is decidedly so.", color: "green" },
     { msg: "Without a doubt.", color: "green" },
