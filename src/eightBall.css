@@ -12,8 +12,10 @@
     justify-content: center;
     display: flex;
     align-items: center;
-
+    background: radial-gradient(  circle at 100px 100px, #3f4042, transparent, #000, transparent );
+    ;
 }
+
 
 
 
