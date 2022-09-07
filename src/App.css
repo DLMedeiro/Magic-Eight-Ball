@@ -29,6 +29,8 @@
   color: transparent;
   /* background: radial-gradient(circle at 100px 100px, #3f4042, #000); */
 }
+
+  
 .App label {
   position: absolute;
   display: flex;
@@ -43,4 +45,5 @@
 .App label:hover {
   font-size: 4rem;
   transition: .25s;
+  cursor: pointer;
 }

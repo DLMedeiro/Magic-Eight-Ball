@@ -54,7 +54,7 @@ const EightBall = (props) => {
         <div>
           <h1>Think of a Question</h1>
 
-          <div className="ball" style={{ backgroundColor: response[1] }}>
+          <div className="ball shake" style={{ backgroundColor: response[1] }}>
             
             <input
               type="checkbox"
