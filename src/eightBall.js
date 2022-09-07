@@ -22,9 +22,6 @@ const EightBall = (props) => {
 // { msg: "Think of a Question", color: "black" },
     const reSet = () => {
         let resp =[];
-        // let num = 0
-        // let randResponse = answers[num].msg;
-        // let color = answers[num].color
         resp.push("Think of a Question");
         resp.push("black")
         // console.log(`num = ${num}`)
@@ -39,7 +36,7 @@ const EightBall = (props) => {
         setResponse(reSet());
     }
 
-    const [response, setResponse] = useState(genRandNum());
+    const [response, setResponse] = useState(reSet());
 
     // console.log(`response = ${response}`)
 
