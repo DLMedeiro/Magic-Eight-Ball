@@ -14,7 +14,6 @@
     align-items: center;
     background: radial-gradient(  circle at 100px 100px, #3f4042, transparent, #000, transparent );
     ;
-    transition: all 5s;
 }
 
 .shake:hover {
