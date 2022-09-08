@@ -44,15 +44,15 @@ const EightBall = (props) => {
     <div>
       {response[1] != "black" && (
         <div>
-          <button onClick={reStart}> Ask a new Question</button>
-          <div className="ball" style={{ backgroundColor: response[1] }}>
+          <a onClick={reStart} className="restart"> Ask a new Question</a>
+          <div className="ball initial-state" style={{ backgroundColor: response[1] }}>
             <p className="ball-text">{response[0]}</p>
           </div>
         </div>
       )}
       {response[1] == "black" && (
         <div>
-          <h1>Think of a Question</h1>
+          <h3>Ask away</h3>
 
           <div className="ball shake" style={{ backgroundColor: response[1] }}>
             

@@ -39,11 +39,14 @@
   border-radius: 1em;
   width: 80%;
   height: 80%;
-  color: white
+  color: white;
 }
 
 .App label:hover {
   font-size: 4rem;
   transition: .25s;
   cursor: pointer;
+
 }
+
+
