@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Magic-eight-ball/static/css/main.241dce59.css",
-    "main.js": "/Magic-eight-ball/static/js/main.f5983c32.js",
-    "static/js/787.fde0e8f2.chunk.js": "/Magic-eight-ball/static/js/787.fde0e8f2.chunk.js",
-    "index.html": "/Magic-eight-ball/index.html",
-    "main.241dce59.css.map": "/Magic-eight-ball/static/css/main.241dce59.css.map",
-    "main.f5983c32.js.map": "/Magic-eight-ball/static/js/main.f5983c32.js.map",
-    "787.fde0e8f2.chunk.js.map": "/Magic-eight-ball/static/js/787.fde0e8f2.chunk.js.map"
+    "main.css": "/Magic-Eight-Ball/static/css/main.241dce59.css",
+    "main.js": "/Magic-Eight-Ball/static/js/main.699373e2.js",
+    "static/js/787.fde0e8f2.chunk.js": "/Magic-Eight-Ball/static/js/787.fde0e8f2.chunk.js",
+    "index.html": "/Magic-Eight-Ball/index.html",
+    "main.241dce59.css.map": "/Magic-Eight-Ball/static/css/main.241dce59.css.map",
+    "main.699373e2.js.map": "/Magic-Eight-Ball/static/js/main.699373e2.js.map",
+    "787.fde0e8f2.chunk.js.map": "/Magic-Eight-Ball/static/js/787.fde0e8f2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.241dce59.css",
-    "static/js/main.f5983c32.js"
+    "static/js/main.699373e2.js"
   ]
 }
