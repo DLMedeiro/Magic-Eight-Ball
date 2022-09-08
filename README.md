@@ -4,7 +4,7 @@ Simulation of the classic Magic Eight Ball.
 
 Try it out and predict your future
 
-
+https://dlmedeiro.github.io/Magic-Eight-Ball/
 
 ## Components
 
