@@ -2,7 +2,6 @@ import { useState } from "react";
 import answers from "./answers";
 import "./eightBall.css";
 
-let status;
 const EightBall = (props) => {
   function genRandNum() {
     let resp = [];
@@ -19,7 +18,7 @@ const EightBall = (props) => {
     return resp;
     // resp = [response, color]
   }
-  // { msg: "Think of a Question", color: "black" },
+
   const reSet = () => {
     let resp = [];
     resp.push("Think of a Question");
