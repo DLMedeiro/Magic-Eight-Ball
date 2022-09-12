@@ -44,8 +44,14 @@ const EightBall = (props) => {
     <div>
       {response[1] != "black" && (
         <div>
-          <a onClick={reStart} className="restart"> Ask a new Question</a>
-          <div className="ball initial-state" style={{ backgroundColor: response[1] }}>
+          <a onClick={reStart} className="restart">
+            {" "}
+            Ask a new Question
+          </a>
+          <div
+            className="ball initial-state"
+            style={{ backgroundColor: response[1] }}
+          >
             <p className="ball-text">{response[0]}</p>
           </div>
         </div>
@@ -55,7 +61,6 @@ const EightBall = (props) => {
           <h3>Ask away</h3>
 
           <div className="ball shake" style={{ backgroundColor: response[1] }}>
-            
             <input
               type="checkbox"
               onClick={start}
@@ -67,27 +72,8 @@ const EightBall = (props) => {
           </div>
         </div>
       )}
-
-      {/* <div className="ball" style={{ backgroundColor: response[1] }}>
-        <p className="ball-text">{response[0]}</p>
-        <input
-          type="checkbox"
-          onClick={start}
-          id="start"
-          name="start"
-          className="start"
-        />
-        <label for="start"></label>
-      </div> */}
     </div>
   );
-  //
-  // <div>
-  //     <h2>Think of a question</h2>
-  //     <button onClick={() => setResponse(genRandNum())}> Shake</button>
-  //     <h2>Response: {response[0]}</h2>
-  //     <h2>Color: {response[1]}</h2>
-  // </div>
 };
 
 export default EightBall;
