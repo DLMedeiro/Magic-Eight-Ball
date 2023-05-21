@@ -10,7 +10,7 @@ https://dlmedeiro.github.io/Magic-Eight-Ball/
 
 This application will consist of two components:
 
-__App:__ A simple component that just renders an EightBall component.
+__App:__ A simple component that renders an EightBall component.
 
 __EightBall:__ The component for the magic eight ball.
 
